@@ -27,7 +27,7 @@ spring:
 # 整合mybatis
 mybatis:
   mapper-locations: classpath:/mapping/*.xml,classpath:/mapping/custom/*.xml
-  type-aliases-package: zczjoa.pojo
+  type-aliases-package: myblog.pojo
   configuration:
     #   log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     lazy-loading-enabled: true
