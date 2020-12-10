@@ -40,7 +40,7 @@ public class TypeServiceImpl implements TypeService {
     }
 
     @Override
-    public List<TypeCustom> getAllType() {
+    public List<Type> getAllType() {
         return typeCustomMapper.selectAllType();
     }
 

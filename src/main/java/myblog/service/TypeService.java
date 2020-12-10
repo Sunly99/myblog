@@ -12,15 +12,15 @@ import java.util.List;
 public interface TypeService {
     /**
      * 保存类型
-     * @param type Type实体类
+     * @param type Type持久对象
      * @return 操作代码 (0成功,1失败)
      */
     int setType(Type type);
 
     /**
-     * 通过类型id获取类型
+     * 根据类型id获取类型
      * @param id 类型id
-     * @return Type实体类
+     * @return Type持久对象
      */
     Type getType(Long id);
 
@@ -28,24 +28,24 @@ public interface TypeService {
      * 获取所有类型
      * @return Type实体类列表
      */
-    List<TypeCustom> getAllType();
+    List<Type> getAllType();
 
     /**
      * 获取所有类型相关的博客
-     * @return Type实体类列表
+     * @return Type持久对象列表
      */
     List<TypeCustom>getAllTypeAndBlog();
 
     /**
-     * 通过类型名称获取类型
+     * 根据类型名称获取类型
      * @param name 类型名称
-     * @return Type实体类
+     * @return Type持久对象类
      */
     Type getTypeByName(String name);
 
     /**
      * 修改类型
-     * @param type Type实体类
+     * @param type Type持久对象类
      * @return 操作代码 (0成功,1失败)
      */
     int updateType(Type type);
