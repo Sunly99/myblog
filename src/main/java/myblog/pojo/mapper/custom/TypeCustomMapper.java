@@ -24,7 +24,7 @@ public interface TypeCustomMapper {
     @Results({
             @Result(column = "id", property = "id", id = true)
     })
-    List<TypeCustom> selectAllType();
+    List<Type> selectAllType();
 
     /**
      * 获取全部类型列表和博客
