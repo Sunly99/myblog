@@ -825,63 +825,63 @@ public class BlogExample {
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledIsNull() {
-            addCriterion("commentabled is null");
+        public Criteria andCommentableIsNull() {
+            addCriterion("commentable is null");
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledIsNotNull() {
-            addCriterion("commentabled is not null");
+        public Criteria andCommentableIsNotNull() {
+            addCriterion("commentable is not null");
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledEqualTo(Boolean value) {
-            addCriterion("commentabled =", value, "commentabled");
+        public Criteria andCommentableEqualTo(Boolean value) {
+            addCriterion("commentable =", value, "commentable");
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledNotEqualTo(Boolean value) {
-            addCriterion("commentabled <>", value, "commentabled");
+        public Criteria andCommentableNotEqualTo(Boolean value) {
+            addCriterion("commentable <>", value, "commentable");
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledGreaterThan(Boolean value) {
-            addCriterion("commentabled >", value, "commentabled");
+        public Criteria andCommentableGreaterThan(Boolean value) {
+            addCriterion("commentable >", value, "commentable");
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledGreaterThanOrEqualTo(Boolean value) {
-            addCriterion("commentabled >=", value, "commentabled");
+        public Criteria andCommentableGreaterThanOrEqualTo(Boolean value) {
+            addCriterion("commentable >=", value, "commentable");
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledLessThan(Boolean value) {
-            addCriterion("commentabled <", value, "commentabled");
+        public Criteria andCommentableLessThan(Boolean value) {
+            addCriterion("commentable <", value, "commentable");
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledLessThanOrEqualTo(Boolean value) {
-            addCriterion("commentabled <=", value, "commentabled");
+        public Criteria andCommentableLessThanOrEqualTo(Boolean value) {
+            addCriterion("commentable <=", value, "commentable");
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledIn(List<Boolean> values) {
-            addCriterion("commentabled in", values, "commentabled");
+        public Criteria andCommentableIn(List<Boolean> values) {
+            addCriterion("commentable in", values, "commentable");
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledNotIn(List<Boolean> values) {
-            addCriterion("commentabled not in", values, "commentabled");
+        public Criteria andCommentableNotIn(List<Boolean> values) {
+            addCriterion("commentable not in", values, "commentable");
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledBetween(Boolean value1, Boolean value2) {
-            addCriterion("commentabled between", value1, value2, "commentabled");
+        public Criteria andCommentableBetween(Boolean value1, Boolean value2) {
+            addCriterion("commentable between", value1, value2, "commentable");
             return (Criteria) this;
         }
 
-        public Criteria andCommentabledNotBetween(Boolean value1, Boolean value2) {
-            addCriterion("commentabled not between", value1, value2, "commentabled");
+        public Criteria andCommentableNotBetween(Boolean value1, Boolean value2) {
+            addCriterion("commentable not between", value1, value2, "commentable");
             return (Criteria) this;
         }
 
