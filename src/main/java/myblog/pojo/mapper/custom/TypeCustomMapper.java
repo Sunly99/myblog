@@ -2,6 +2,7 @@ package myblog.pojo.mapper.custom;
 
 import myblog.pojo.po.Type;
 import myblog.pojo.po.custom.TypeCustom;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
@@ -14,6 +15,7 @@ import java.util.List;
  * @date 2020/12/10
  */
 @Repository
+@Mapper
 public interface TypeCustomMapper {
 
     /**

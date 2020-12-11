@@ -6,6 +6,7 @@ import myblog.pojo.po.Type;
 import myblog.pojo.po.TypeExample;
 import myblog.pojo.po.custom.TypeCustom;
 import myblog.service.TypeService;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -14,6 +15,7 @@ import java.util.List;
  * @author 孙柳烨
  * @date 2020/12/10
  */
+@Service
 public class TypeServiceImpl implements TypeService {
 
     @Resource
