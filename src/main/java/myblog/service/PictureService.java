@@ -13,7 +13,7 @@ public interface PictureService {
      * 查询照片
      * @return Picture持久对象列表
      */
-    List<Picture> listPicture();
+    List<Picture> getAllPicture();
 
     /**
      * 添加图片
